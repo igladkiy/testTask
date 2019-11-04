@@ -1,0 +1,76 @@
+@media screen and (max-width: 768px) {
+  .text h2 {
+    font-size: 24px; }
+  .menuItems {
+    display: none; }
+  #menuHome {
+    display: block; }
+  ul.menu > li:hover > ul.burgerMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: -80px; }
+  .blocks {
+    justify-content: center; }
+    .blocks div .phone {
+      display: none; }
+    .blocks .txtInMain {
+      left: 0; }
+    .blocks:nth-child(even) {
+      margin-left: 0;
+      left: 0; }
+      .blocks:nth-child(even) .txtInMain {
+        left: 0; }
+  .mySlidesTeam .photo {
+    height: 70px;
+    width: 50px;
+    margin: 0; }
+  .mySlidesTeam {
+    margin-top: 100px; }
+    .mySlidesTeam .about div {
+      margin: 0; }
+  .prevAndNext {
+    width: 270px;
+    position: relative;
+    left: calc(50% - 170px);
+    top: 10px; }
+  .adressMap {
+    width: 250px;
+    height: 250px; }
+  .streetMarker {
+    display: none; }
+  .contacts {
+    left: calc(50% - 250px); }
+    .contacts .points h1 {
+      font-size: 18px; } }
+
+@media screen and (max-width: 480px) {
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 0;
+    top: 100px; }
+  .adressMap {
+    width: 150px;
+    height: 150px; }
+  .mySlidesTeam .photo {
+    height: 50px;
+    width: 30px;
+    margin-left: -100px; }
+  .prevAndNext {
+    width: 270px;
+    position: relative;
+    left: calc(50% - 120px);
+    top: 10px; }
+  #home nav div {
+    padding: 0;
+    margin-left: 40px; }
+    #home nav div span {
+      display: none; }
+  #home nav .menu {
+    left: 0;
+    padding: 0;
+    margin-left: -30px; } }
+
+/*# sourceMappingURL=media.css.map */
